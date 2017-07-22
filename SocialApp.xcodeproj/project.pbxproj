@@ -7,18 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		307298541F1A7F4300690457 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307298531F1A7F4300690457 /* ShadowView.swift */; };
+		307298561F1A909D00690457 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307298551F1A909D00690457 /* RoundedButton.swift */; };
+		307BA70C1F1D33190082CBFC /* RoundedImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307BA70B1F1D33190082CBFC /* RoundedImg.swift */; };
+		307BA70E1F1D339B0082CBFC /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307BA70D1F1D339B0082CBFC /* CircleButton.swift */; };
+		3085163C1F1E8D3E00C9A6DB /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3085163B1F1E8D3E00C9A6DB /* Post.swift */; };
 		30AE38C11F19D2D8001E95F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AE38C01F19D2D8001E95F5 /* AppDelegate.swift */; };
 		30AE38C31F19D2D8001E95F5 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AE38C21F19D2D8001E95F5 /* SignInVC.swift */; };
 		30AE38C61F19D2D8001E95F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30AE38C41F19D2D8001E95F5 /* Main.storyboard */; };
 		30AE38C81F19D2D8001E95F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30AE38C71F19D2D8001E95F5 /* Assets.xcassets */; };
 		30AE38CB1F19D2D8001E95F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30AE38C91F19D2D8001E95F5 /* LaunchScreen.storyboard */; };
 		30AE38D31F19D2FB001E95F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30AE38D21F19D2FB001E95F5 /* GoogleService-Info.plist */; };
+		30B9D67E1F1C21DD009618BD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B9D67D1F1C21DD009618BD /* Constants.swift */; };
+		30B9D6801F1C251C009618BD /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B9D67F1F1C251C009618BD /* FeedVC.swift */; };
+		30CFE0DE1F1D2D5D005CCFC2 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CFE0DC1F1D2D5D005CCFC2 /* PostCell.swift */; };
+		30CFE0DF1F1D2D5D005CCFC2 /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30CFE0DD1F1D2D5D005CCFC2 /* PostCell.xib */; };
+		30D8B3201F1DAA9A00539C54 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D8B31F1F1DAA9A00539C54 /* DataService.swift */; };
 		EA19B8D27F3F0ADD587CCB92 /* Pods_SocialApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B0DA0E7558DDF1FBB66FF7 /* Pods_SocialApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		19416BB55A61DCDD929B79B0 /* Pods-SocialApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialApp/Pods-SocialApp.debug.xcconfig"; sourceTree = "<group>"; };
 		19B0DA0E7558DDF1FBB66FF7 /* Pods_SocialApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		307298531F1A7F4300690457 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		307298551F1A909D00690457 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		307BA70B1F1D33190082CBFC /* RoundedImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedImg.swift; sourceTree = "<group>"; };
+		307BA70D1F1D339B0082CBFC /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		3085163B1F1E8D3E00C9A6DB /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		30AE38BD1F19D2D8001E95F5 /* SocialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30AE38C01F19D2D8001E95F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30AE38C21F19D2D8001E95F5 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -27,6 +42,11 @@
 		30AE38CA1F19D2D8001E95F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30AE38CC1F19D2D8001E95F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30AE38D21F19D2FB001E95F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		30B9D67D1F1C21DD009618BD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		30B9D67F1F1C251C009618BD /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		30CFE0DC1F1D2D5D005CCFC2 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		30CFE0DD1F1D2D5D005CCFC2 /* PostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostCell.xib; sourceTree = "<group>"; };
+		30D8B31F1F1DAA9A00539C54 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		48BB859896AD48AB86302D00 /* Pods-SocialApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialApp/Pods-SocialApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				30AE38C21F19D2D8001E95F5 /* SignInVC.swift */,
+				30B9D67F1F1C251C009618BD /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -53,6 +74,12 @@
 		3031308A1F19D4B300860EE2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				307298531F1A7F4300690457 /* ShadowView.swift */,
+				307298551F1A909D00690457 /* RoundedButton.swift */,
+				30CFE0DC1F1D2D5D005CCFC2 /* PostCell.swift */,
+				30CFE0DD1F1D2D5D005CCFC2 /* PostCell.xib */,
+				307BA70B1F1D33190082CBFC /* RoundedImg.swift */,
+				307BA70D1F1D339B0082CBFC /* CircleButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -60,6 +87,7 @@
 		3031308B1F19D4B800860EE2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3085163B1F1E8D3E00C9A6DB /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -85,6 +113,8 @@
 		30AE38BF1F19D2D8001E95F5 /* SocialApp */ = {
 			isa = PBXGroup;
 			children = (
+				30D8B31E1F1DAA8A00539C54 /* Services */,
+				30B9D67C1F1C21D3009618BD /* Util */,
 				3031308B1F19D4B800860EE2 /* Model */,
 				3031308A1F19D4B300860EE2 /* View */,
 				303130891F19D4A900860EE2 /* Controller */,
@@ -96,6 +126,22 @@
 				30AE38D21F19D2FB001E95F5 /* GoogleService-Info.plist */,
 			);
 			path = SocialApp;
+			sourceTree = "<group>";
+		};
+		30B9D67C1F1C21D3009618BD /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				30B9D67D1F1C21DD009618BD /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		30D8B31E1F1DAA8A00539C54 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				30D8B31F1F1DAA9A00539C54 /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		6DFF4439F7332A6FE7F070D9 /* Pods */ = {
@@ -179,6 +225,7 @@
 			files = (
 				30AE38CB1F19D2D8001E95F5 /* LaunchScreen.storyboard in Resources */,
 				30AE38D31F19D2FB001E95F5 /* GoogleService-Info.plist in Resources */,
+				30CFE0DF1F1D2D5D005CCFC2 /* PostCell.xib in Resources */,
 				30AE38C81F19D2D8001E95F5 /* Assets.xcassets in Resources */,
 				30AE38C61F19D2D8001E95F5 /* Main.storyboard in Resources */,
 			);
@@ -239,8 +286,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30CFE0DE1F1D2D5D005CCFC2 /* PostCell.swift in Sources */,
+				3085163C1F1E8D3E00C9A6DB /* Post.swift in Sources */,
+				307BA70C1F1D33190082CBFC /* RoundedImg.swift in Sources */,
+				30B9D6801F1C251C009618BD /* FeedVC.swift in Sources */,
+				307BA70E1F1D339B0082CBFC /* CircleButton.swift in Sources */,
+				30B9D67E1F1C21DD009618BD /* Constants.swift in Sources */,
+				307298541F1A7F4300690457 /* ShadowView.swift in Sources */,
 				30AE38C31F19D2D8001E95F5 /* SignInVC.swift in Sources */,
 				30AE38C11F19D2D8001E95F5 /* AppDelegate.swift in Sources */,
+				307298561F1A909D00690457 /* RoundedButton.swift in Sources */,
+				30D8B3201F1DAA9A00539C54 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
